@@ -146,4 +146,155 @@ export default function Index() {
     </SafeAreaView>
   );
 }
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: "#fff",
+  },
+  header: {
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "space-between",
+    paddingHorizontal: 14,
+    paddingVertical: 8,
+    borderBottomWidth: StyleSheet.hairlineWidth,
+    borderBottomColor: "#dbdbdb",
+  },
+  headerCenter: {
+    alignItems: "center",
+  },
+  headerEyebrow: {
+    fontSize: 11,
+    fontWeight: "600",
+    color: "#8e8e8e",
+    letterSpacing: 0.5,
+  },
+  headerTitle: {
+    fontSize: 16,
+    fontWeight: "700",
+    color: "#000",
+  },
+  headerSpacer: {
+    width: 26,
+  },
+  postHeader: {
+    flexDirection: "row",
+    alignItems: "center",
+    paddingHorizontal: 12,
+    paddingVertical: 10,
+  },
+  storyRing: {
+    width: 38,
+    height: 38,
+    borderRadius: 19,
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  avatarSmall: {
+    width: 32,
+    height: 32,
+    borderRadius: 16,
+    borderWidth: 2,
+    borderColor: "#fff",
+  },
+  postHeaderText: {
+    flex: 1,
+    marginLeft: 10,
+  },
+  postUser: {
+    fontSize: 13,
+    fontWeight: "700",
+    color: "#000",
+  },
+  postVia: {
+    fontSize: 12,
+    color: "#8e8e8e",
+  },
+  postImage: {
+    width: "100%",
+    aspectRatio: 1,
+    backgroundColor: "#efefef",
+  },
+  actionBar: {
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "space-between",
+    paddingHorizontal: 12,
+    paddingVertical: 10,
+  },
+  actionLeft: {
+    flexDirection: "row",
+    alignItems: "center",
+  },
+  actionIcon: {
+    marginRight: 16,
+  },
+  likesRow: {
+    flexDirection: "row",
+    alignItems: "center",
+    paddingHorizontal: 12,
+    paddingBottom: 6,
+  },
+  likerStack: {
+    flexDirection: "row",
+    marginRight: 8,
+  },
+  likerAvatar: {
+    width: 20,
+    height: 20,
+    borderRadius: 10,
+    borderWidth: 1.5,
+    borderColor: "#fff",
+    backgroundColor: "#efefef",
+  },
+  likerAvatarOverlap: {
+    marginLeft: -8,
+  },
+  likesText: {
+    flex: 1,
+    fontSize: 13,
+    color: "#000",
+  },
+  bold: {
+    fontWeight: "700",
+  },
+  captionBlock: {
+    paddingHorizontal: 12,
+  },
+  captionText: {
+    fontSize: 13,
+    color: "#000",
+    lineHeight: 18,
+  },
+  viewComments: {
+    fontSize: 13,
+    color: "#8e8e8e",
+    marginTop: 4,
+  },
+  commentText: {
+    fontSize: 13,
+    color: "#000",
+    lineHeight: 18,
+    marginTop: 2,
+  },
+  timeAgo: {
+    fontSize: 11,
+    color: "#8e8e8e",
+    marginTop: 6,
+  },
+  alertButton: {
+    paddingHorizontal: 40,
+    paddingVertical: 20,
+  },
+  tabBar: {
+    flexDirection: "row",
+    justifyContent: "space-around",
+    alignItems: "center",
+    paddingVertical: 12,
+    borderTopWidth: 1,
+    borderTopColor: "#dbdbdb",
+  },
+});
+
+
 
