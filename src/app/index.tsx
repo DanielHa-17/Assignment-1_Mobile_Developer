@@ -125,3 +125,25 @@ function TabBar() {
   );
 }
 
+export default function Index() {
+  return (
+    <SafeAreaView style={styles.container}>
+      <Header />
+      <ScrollView showsVerticalScrollIndicator={false}>
+        <PostHeader />
+        <Image source={POST_IMAGE} style={styles.postImage} />
+        <ActionBar />
+        <Likes />
+        <Caption />
+        <View style={styles.alertButton}>
+          <Button
+            title="Alert"
+            onPress={() => Alert.alert("Alert Button pressed")}
+          />
+        </View>
+      </ScrollView>
+      <TabBar />
+    </SafeAreaView>
+  );
+}
+
