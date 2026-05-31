@@ -31,4 +31,46 @@ function Header() {
     </View>
   );
 }
+function PostHeader() {
+  return (
+    <View style={styles.postHeader}>
+      <LinearGradient
+        colors={["#feda75", "#d62976", "#962fbf"]}
+        start={{ x: 0, y: 1 }}
+        end={{ x: 1, y: 0 }}
+        style={styles.storyRing}
+      >
+        <Image source={AVATAR} style={styles.avatarSmall} />
+      </LinearGradient>
+      <View style={styles.postHeaderText}>
+        <Text style={styles.postUser}>ootd_everyday</Text>
+        <Text style={styles.postVia}>via frenchie_fry39</Text>
+      </View>
+      <Ionicons name="ellipsis-horizontal" size={20} color="#000" />
+    </View>
+  );
+}
+
+function ActionBar() {
+  return (
+    <View style={styles.actionBar}>
+      <View style={styles.actionLeft}>
+        <Ionicons
+          name="heart-outline"
+          size={26}
+          color="#000"
+          style={styles.actionIcon}
+        />
+        <Ionicons
+          name="chatbubble-outline"
+          size={24}
+          color="#000"
+          style={styles.actionIcon}
+        />
+        <Ionicons name="paper-plane-outline" size={24} color="#000" />
+      </View>
+      <Ionicons name="bookmark-outline" size={24} color="#000" />
+    </View>
+  );
+}
 
